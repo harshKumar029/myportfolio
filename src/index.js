@@ -1,14 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Navbar from './component/navigation bar/navbar';
+import Hero from './component/heropage/hero';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter} from 'react-router-dom';
+import Portfolio from './component/myportfolio/portfolio';
+import Aboutme from './component/aboutme/aboutme';
+import Myskill from './component/myskills/myskill';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+  <BrowserRouter>
+  <Navbar/>
+  </BrowserRouter>
+  <Hero/>
+  <Portfolio/>
+  <Aboutme/>
+  <Myskill/>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function

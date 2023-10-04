@@ -1,0 +1,97 @@
+.aboutme{
+    margin-top: 8%;
+    margin-left: 11%;
+    display: flex;
+}
+
+.eleven {
+    margin: 0px;
+  margin-left: 2.1rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  
+  .portfolio_one {
+    margin: 0px;
+    margin-top: 1px;
+    margin-bottom: 1rem;
+    margin-left: 4.3rem;
+    color: #08fdd8;
+    font-size: 2.3rem;
+  }
+  
+  .twelve {
+    margin: 0px;
+  margin-left: 2.1rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  
+  .thirteen {
+    margin: 0px;
+    margin-top: 1.5rem;
+  margin-left: 2.1rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  
+  }
+  
+  .content_two {
+    max-width: 700px;
+    margin-top: 20px;
+    margin-left: 4rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  
+  .fourteen {
+    margin: 0px;
+  margin-left: 2.1rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .right{
+    width: 40%;
+  }
+  
+  .persion_img {
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    float: right;
+  }
+  .imgtag{
+    margin: 0px;
+    margin-left: 2.1rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .gifimg{
+    mix-blend-mode: lighten;
+    margin-left: 4rem;
+    width: 55%;
+  }
+  @media only screen and (max-width: 1150px){
+    .right{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 850px){
+    .aboutme{
+      margin-top: 0%;
+      margin-left: 1%;
+    }
+  }

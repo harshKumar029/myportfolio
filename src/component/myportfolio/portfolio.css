@@ -1,0 +1,107 @@
+.portfolio{
+  margin-top: 11%;
+  margin-left: 11%;
+}
+.seven {
+  margin: 0px;
+  margin-left: 2.1rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  
+  .myportfolio {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 4.3rem;
+    color: #08fdd8;
+    font-size: 2.3rem;
+  }
+  
+  .eight {
+    margin: 0px;
+    margin-left: 2.1rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+    
+  }
+ @keyframes scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(calc(-250px * 7), 0, 0);
+  }
+}
+
+.slider {
+  max-width: fit-content;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide-track {
+  animation: scroll 50s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+  will-change: transform;
+}
+
+.slide {
+  flex: 0 0 250px;
+  margin-right: 10px;
+}
+.slide img{
+  height: auto;
+  width: 35rem;
+}
+.sec_start {
+  margin-left: 0rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.sec_end {
+  margin-left: 0rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.nine {
+  margin: 0px;
+  margin-left: 2.1rem;
+  color: #515152;
+  font-family: 'Smooch', cursive;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.content_one {
+  max-width: 600px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+  color: #fff;
+  font-family: 'open sanas' sans-serif;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.ten {
+  margin: 0px;
+  margin-left: 2.1rem;
+  color: #515152;
+  font-family: 'Smooch', cursive;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+  @media only screen and (max-width: 850px){
+    .portfolio{
+      margin-top: 0%;
+      margin-left: 1%;
+    }
+  }

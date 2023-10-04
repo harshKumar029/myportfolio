@@ -1,0 +1,190 @@
+
+.abc{
+  margin-left: 11%;
+  display: flex;
+  justify-content: space-between;
+}
+.one {
+    margin-top: 3rem;
+    margin-bottom: 0px;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  
+  }
+  .two {
+    margin-top: .8rem;
+    margin-bottom: 0px;
+    margin-left: 2.1rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+
+  .three {
+    margin-top: .8rem;
+    margin-bottom: 0;
+    margin-left: 4.5rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  
+  
+  .blastroot {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin-left: 5.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    font-size: 4.3rem;
+  }
+  
+  .waviy {
+    font-family:"Times New Roman";
+  }
+  
+  .waviy span {
+    display: inline-block;
+    color: rgb(255, 242, 1);
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+
+  @keyframes flip {
+  
+    0%,
+    80% {
+      transform: rotateY(360deg)
+    }
+  }
+  
+  .word {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin-left: 5.3rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 4.3rem;
+    line-height: 1em;
+
+  }
+  
+  
+  .four {
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  
+  .five {
+    margin-top: 0px;
+    margin-left: 5.2rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    font-weight: 100;
+  }
+  
+  .para2 {
+    font-family: "Open Sans", sans-serif;
+    color: #515152;
+    font-size: 1rem;
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+    margin-left: 6.7rem;
+  }
+  
+  .six {
+    margin-top: 0px;
+    margin-left: 5rem;
+    margin-bottom: 0px;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .resum{
+    margin-left: 7rem;
+  }
+  .resume {
+    margin-top: 2.6rem;
+    color: #08fdd8;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    background-color: #1c1c1c;
+    border-color: #08fdd8;
+    font-size: 1.5rem;
+    padding: .7rem;
+    width: 12.5rem;
+  }
+  
+  .resume span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .resume span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .resume:hover span {
+    padding-right: 25px;
+  }
+  
+  .resume:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+   .heroanimation{
+    margin: auto;
+    width: 45%;
+    }
+.scrollanimation{
+  width: 1.7%;
+  position: absolute;
+  right: 11px;
+  bottom: 0;
+}
+  @media only screen and (max-width: 850px){
+.abc{
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.one{
+  margin-top: 9rem;
+}
+.heroanimation{
+  min-width: 80%;
+  }
+ .scrollanimation{
+    display: none;
+  }
+}
+  @media only screen and (max-width: 550px) {
+    .blastroot{
+      font-size: 4rem;
+    }
+    .word{
+      font-size: 4rem;
+    }
+  }

@@ -1,0 +1,84 @@
+.myskill{
+    margin-top: 8%;
+    margin-left: 11%;
+}
+.fifteen {
+    margin: 0px;
+  margin-left: 2.1rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  
+  .myprtfolio_two {
+    margin: 0px;
+    margin-top: 1px;
+    margin-bottom: 1rem;
+    margin-left: 4.3rem;
+    color: #08fdd8;
+    font-size: 2.3rem;
+  }
+  
+  .sixteen {
+    margin: 0px;
+    margin-left: 2.1rem;
+      color: #515152;
+      font-family: 'Smooch', cursive;
+      font-size: 1.5rem;
+      font-weight: 100;
+  }
+  
+  .seventeen {
+    margin: 0px;
+    margin-left: 2.4rem;
+      color: #515152;
+      font-family: 'Smooch', cursive;
+      font-size: 1.5rem;
+      font-weight: 100;
+  }
+  
+  .content_three {
+    max-width: 900px;
+    margin-top: 20px;
+    margin-left: 4rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  
+  .eighteen {
+    margin: 0px;
+    margin-left: 2.4rem;
+      color: #515152;
+      font-family: 'Smooch', cursive;
+      font-size: 1.5rem;
+      font-weight: 100;
+  }
+  
+  .ninteen {
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    margin-left: 1.4rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  
+  .twenty {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    color: #515152;
+    font-family: 'Smooch', cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  @media only screen and (max-width: 850px){
+    .myskill{
+      margin-top: 0%;
+      margin-left: 1%;
+    }
+  }
