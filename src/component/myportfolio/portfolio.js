@@ -29,7 +29,7 @@ const portfolio = () => {
                         </div>
                         <div className="slide">
                             <a href="https://puppytheworld.in/">
-                                <img src="./assets/img/puppyworld.png" alt="" />online-shop.png
+                                <img src="./assets/img/puppyworld.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
