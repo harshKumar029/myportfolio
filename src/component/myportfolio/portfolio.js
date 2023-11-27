@@ -18,13 +18,18 @@ const portfolio = () => {
                 <div className="slider">
                     <div className="slide-track">
                         <div className="slide">
-                            <a href="https://harshkumar029.github.io/fitnness-website/">
-                                <img src="./assets/img/fitness.png" alt="" />
+                            <a href="https://harshkumar029.github.io/email_featching/">
+                                <img src="./assets/img/contactform.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://harshkumar029.github.io/email_featching/">
-                                <img src="./assets/img/contactform.png" alt="" />
+                            <a href="https://leatheringo.000webhostapp.com/">
+                                <img src="./assets/img/online-shop.png" alt="" />
+                            </a>
+                        </div>
+                        <div className="slide">
+                            <a href="https://netflix-clone-ui-design.netlify.app/">
+                                <img src="./assets/img/netflixclone.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
@@ -50,6 +55,11 @@ const portfolio = () => {
                         <div className="slide">
                             <a href="https://harshkumar029.github.io/Login-page/">
                                 <img src="./assets/img/login_ui.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div className="slide">
+                            <a href="https://harshkumar029.github.io/fitnness-website/">
+                                <img src="./assets/img/fitness.png" alt="" />
                             </a>
                         </div>
                     </div>
