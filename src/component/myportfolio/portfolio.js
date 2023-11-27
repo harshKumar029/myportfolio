@@ -29,7 +29,7 @@ const portfolio = () => {
                         </div>
                         <div className="slide">
                             <a href="https://netflix-clone-ui-design.netlify.app/">
-                                <img src="./assets/img/netflixclone.png" alt="" />
+                                <img src="./assets/img/netfixclone.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
