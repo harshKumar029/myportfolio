@@ -28,18 +28,13 @@ const portfolio = () => {
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://netflix-clone-ui-design.netlify.app/">
+                            <a href="https://65732d59096c7920a47347d1--netflix-clone-ui-design.netlify.app/">
                                 <img src="./assets/img/netfixclone.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
                             <a href="https://puppytheworld.in/">
                                 <img src="./assets/img/puppyworld.png" alt="" />
-                            </a>
-                        </div>
-                        <div className="slide">
-                            <a href="https://leatheringo.000webhostapp.com/">
-                                <img src="./assets/img/online-shop.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
