@@ -30,7 +30,7 @@ const Hero = () => {
           <p className="five">&lt;p&gt;</p>
           <p className="para2"> <b> FRONTEND & BACKEND DEVELOPER </b> </p>
           <p className="six">&lt;/p&gt;</p>
-          <a className='resum' href="https://drive.google.com/file/d/146vaoqP7QLK7K1-U08gFf51Z44_UuJyp/view?usp=sharing" target="_blank">
+          <a className='resum' href="https://drive.google.com/file/d/1Q0f-ftO_awIjzMakkLPTi6QmhU_VSgNC/view?usp=sharing" target="_blank">
             <button className="resume"> <span>Resume</span> </button>
           </a>
         </div>
