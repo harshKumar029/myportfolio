@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className='nv_container'>
         <nav>
           <div className='nav-logo'>
-            <RouterLink to="https://harshkumar029.github.io/myportfolio/"><img className='logo-img' src="./assets/img/Name.png" alt="icon" /></RouterLink>
+            <RouterLink to="#"><img className='logo-img' src="./assets/img/Name.png" alt="icon" /></RouterLink>
             <h4>Harsh</h4>
             <h5>Web Developer</h5>
           </div>
