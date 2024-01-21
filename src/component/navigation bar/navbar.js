@@ -26,7 +26,8 @@ const Navbar = () => {
   };
 
   const handleLinkClick = () => {
-    if (isOpen) {
+    const isBiggerScreen = window.innerWidth < 550;
+    if (isOpen && isBiggerScreen) {
       setIsOpen(false);
     }
   };
