@@ -23,18 +23,28 @@ const portfolio = () => {
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://leatheringo.000webhostapp.com/">
-                                <img src="./assets/img/online-shop.png" alt="" />
+                            <a href="https://github.com/harshKumar029/cloudkitchen_mern">
+                                <img src="./assets/img/fastfood.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://netflixclone-green-one.vercel.app/">
+                            <a href="https://netflixuiclone-ochre.vercel.app/">
                                 <img src="./assets/img/netfixclone.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
                             <a href="https://puppytheworld.in/">
                                 <img src="./assets/img/puppyworld.png" alt="" />
+                            </a>
+                        </div>
+                        <div className="slide">
+                            <a href="https://github.com/harshKumar029?tab=repositories">
+                                <img src="./assets/img/chartjs.png" alt="" />
+                            </a>
+                        </div>
+                        <div className="slide">
+                            <a href="#">
+                                <img src="./assets/img/online-shop.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
