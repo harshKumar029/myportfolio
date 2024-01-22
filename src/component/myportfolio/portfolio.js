@@ -17,11 +17,11 @@ const portfolio = () => {
                 <p className="sec_start">&lt;section&gt;</p>
                 <div className="slider">
                     <div className="slide-track">
-                        <div className="slide">
+                        {/* <div className="slide">
                             <a href="https://harshkumar029.github.io/email_featching/">
                                 <img src="./assets/img/contactform.png" alt="" />
                             </a>
-                        </div>
+                        </div> */}
                         <div className="slide">
                             <a href="https://github.com/harshKumar029/cloudkitchen_mern">
                                 <img src="./assets/img/fastfood.png" alt="" />
@@ -47,7 +47,7 @@ const portfolio = () => {
                                 <img src="./assets/img/online-shop.png" alt="" />
                             </a>
                         </div>
-                        <div className="slide">
+                        {/* <div className="slide">
                             <a href="https://harshkumar029.github.io/Ai-responsive-website/">
                                 <img src="./assets/img/vizon.jpg" alt="" />
                             </a>
@@ -66,7 +66,7 @@ const portfolio = () => {
                             <a href="https://harshkumar029.github.io/fitnness-website/">
                                 <img src="./assets/img/fitness.png" alt="" />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <p className="sec_end">&lt;/section&gt;</p>
