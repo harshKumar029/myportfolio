@@ -17,18 +17,18 @@ const portfolio = () => {
                 <p className="sec_start">&lt;section&gt;</p>
                 <div className="slider">
                     <div className="slide-track">
-                        {/* <div className="slide">
+                        <div className="slide">
                             <a href="https://harshkumar029.github.io/email_featching/">
                                 <img src="./assets/img/contactform.png" alt="" />
                             </a>
-                        </div> */}
+                        </div>
                         <div className="slide">
                             <a href="https://github.com/harshKumar029/cloudkitchen_mern">
                                 <img src="./assets/img/fastfood.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://netflixuiclone-ochre.vercel.app/">
+                            <a href="https://github.com/harshKumar029/netflixui?tab=readme-ov-file">
                                 <img src="./assets/img/netfixclone.png" alt="" />
                             </a>
                         </div>
@@ -38,7 +38,7 @@ const portfolio = () => {
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://github.com/harshKumar029?tab=repositories">
+                            <a href="https://github.com/harshKumar029/blackcoffer">
                                 <img src="./assets/img/chartjs.png" alt="" />
                             </a>
                         </div>
