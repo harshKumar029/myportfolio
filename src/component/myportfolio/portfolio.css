@@ -91,6 +91,23 @@
   font-weight: lighter;
   font-family: 'Alegreya Sans', sans-serif;
 }
+.view_Project{
+  text-align: -webkit-center;
+}
+.more_proj{
+  display: flex;
+  color: #08fdd8;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  width: max-content;
+  padding: 3px 15px;
+  border: solid rgb(46, 49, 62) 1px;
+}
+.more_proj svg{
+  width: 27px;
+  margin-left: 5px;
+}
 .ten {
   margin: 0px;
   margin-left: 2.1rem;

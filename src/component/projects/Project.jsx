@@ -1,15 +1,15 @@
 import React from 'react';
-import netflixCloneImage from '../../assets/img/netfixclone.png';
-import fastfood from '../../assets/img/fastfood.png';
-import chartjs from '../../assets/img/chartjs.png';
-import fitness from '../../assets/img/fitness.png';
-import puppyworld from '../../assets/img/puppyworld.png';
-import online_shop from '../../assets/img/online-shop.png';
-import Rezorpay from '../../assets/img/Rezorpay.png';
-import Search from '../../assets/img/Search.png';
-import network_anylatics from '../../assets/img/network_anylatics.png';
-import url_short from '../../assets/img/url_short.png';
-import Task_manager from '../../assets/img/Task manager.png';
+import netflixCloneImage from '../../assetss/img/netfixclone.png';
+import fastfood from '../../assetss/img/fastfood.png';
+import chartjs from '../../assetss/img/chartjs.png';
+import fitness from '../../assetss/img/fitness.png';
+import puppyworld from '../../assetss/img/puppyworld.png';
+import online_shop from '../../assetss/img/online-shop.png';
+import Rezorpay from '../../assetss/img/Rezorpay.png';
+import Search from '../../assetss/img/Search.png';
+import network_anylatics from '../../assetss/img/network_anylatics.png';
+import url_short from '../../assetss/img/url_short.png';
+import Task_manager from '../../assetss/img/Task manager.png';
 import './project.css';
 
 const projects = [
