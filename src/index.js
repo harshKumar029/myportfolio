@@ -4,21 +4,32 @@ import './index.css';
 import Navbar from './component/navigation bar/navbar';
 import Hero from './component/heropage/hero';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter} from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Portfolio from './component/myportfolio/portfolio';
 import Aboutme from './component/aboutme/aboutme';
 import Myskill from './component/myskills/myskill';
+import Project from './component/projects/Project';
+import Homepage from './Homepage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <BrowserRouter>
-  <Navbar/>
-  </BrowserRouter>
-  <Hero/>
-  <Portfolio/>
-  <Aboutme/>
-  <Myskill/>
+    <Router>
+      <Navbar />
+      <Routes>
+        {/* <Route path="/myportfolio" element={<Homepage />} />
+        <Route path='/Project' element={<Project/>} /> */}
+        <Route path="/" element={<Homepage />} />
+        {/* <Route path="/myportfolio" element={<Homepage />} /> */}
+        <Route path="/project" element={<Project />} />
+      </Routes>
+
+    {/* <Hero />
+    <Portfolio />
+    <Aboutme />
+    <Myskill /> */}
+    </Router>
   </>
 );
 

@@ -1,7 +1,14 @@
 import React from 'react'
 import './portfolio.css';
+import { useNavigate } from 'react-router-dom';
 
-const portfolio = () => {
+const Portfolio = () => {
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/Project');
+    };
     return (
         <>
             <div className='portfolio' id='portfolio'>
@@ -10,7 +17,7 @@ const portfolio = () => {
                 <p className="eight">&lt;/h2&gt;</p>
                 <p className="nine">&lt;p&gt;</p>
                 <p className="content_one">Here's a glimpse of a small gallery showcasing recent projects I've undertaken
-                 single-handedly. While this represents just a fraction of my work, it's a testament to my capabilities.
+                    single-handedly. While this represents just a fraction of my work, it's a testament to my capabilities.
                 </p>
 
                 <p className="ten">&lt;/p&gt;</p>
@@ -23,12 +30,12 @@ const portfolio = () => {
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://github.com/harshKumar029/cloudkitchen_mern">
+                            <a href="https://fastfood-nu.vercel.app/">
                                 <img src="./assets/img/fastfood.png" alt="" />
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://github.com/harshKumar029/netflixui?tab=readme-ov-file">
+                            <a href="https://netflixuiclone-jecbzpb34-harsh-kumars-projects-93aba863.vercel.app/">
                                 <img src="./assets/img/netfixclone.png" alt="" />
                             </a>
                         </div>
@@ -38,7 +45,7 @@ const portfolio = () => {
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://github.com/harshKumar029/blackcoffer">
+                            <a href="https://anylatics.vercel.app/">
                                 <img src="./assets/img/chartjs.png" alt="" />
                             </a>
                         </div>
@@ -69,6 +76,13 @@ const portfolio = () => {
                         </div> */}
                     </div>
                 </div>
+                <p
+                    style={{ color: '#08fdd8', cursor: 'pointer' }}
+                    className="sec_end"
+                    onClick={handleClick}
+                >
+                    View More projects
+                </p>
                 <p className="sec_end">&lt;/section&gt;</p>
 
             </div>
@@ -76,4 +90,4 @@ const portfolio = () => {
     )
 }
 
-export default portfolio
+export default Portfolio

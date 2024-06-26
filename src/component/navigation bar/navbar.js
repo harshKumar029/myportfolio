@@ -37,17 +37,25 @@ const Navbar = () => {
       <div className='nv_container'>
         <nav>
           <div className='nav-logo'>
-            <RouterLink to="#"><img className='logo-img' src="./assets/img/Name.png" alt="icon" /></RouterLink>
+            <RouterLink to="/#"><img className='logo-img' src="./assets/img/Name.png" alt="icon" /></RouterLink>
             <h4>Harsh</h4>
             <h5>Web Developer</h5>
           </div>
           <div className='menu-link'>
-            {isOpen && (
+            {/* {isOpen && (
               <ul>
                 <li><Link smooth to="#hero" onClick={handleLinkClick}>Home</Link></li>
                 <li><Link smooth to="#aboutme" onClick={handleLinkClick}>About</Link></li>
                 <li><Link smooth to="#myskill" onClick={handleLinkClick}>My skill</Link></li>
                 <li><Link smooth to="#portfolio" onClick={handleLinkClick}>Work</Link></li>
+              </ul>
+            )} */}
+            {isOpen && (
+              <ul>
+                <li><Link smooth to="/#hero-section" onClick={handleLinkClick}>Home</Link></li>
+                <li><Link smooth to="/#aboutme-section" onClick={handleLinkClick}>About</Link></li>
+                <li><Link smooth to="/#skills-section" onClick={handleLinkClick}>My skill</Link></li>
+                <li><Link smooth to="/#portfolio-section" onClick={handleLinkClick}>Work</Link></li>
               </ul>
             )}
           </div>
