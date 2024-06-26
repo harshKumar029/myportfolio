@@ -20,7 +20,7 @@ root.render(
       <Routes>
         {/* <Route path="/myportfolio" element={<Homepage />} />
         <Route path='/Project' element={<Project/>} /> */}
-        <Route path="/" element={<Homepage />} />
+        <Route path="/myportfolio" element={<Homepage />} />
         {/* <Route path="/myportfolio" element={<Homepage />} /> */}
         <Route path="/project" element={<Project />} />
       </Routes>
