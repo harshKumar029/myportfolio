@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.a758497f.css",
-    "main.js": "/myportfolio/static/js/main.d9387788.js",
+    "main.css": "/myportfolio/static/css/main.87afe2a6.css",
+    "main.js": "/myportfolio/static/js/main.ff0507d0.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
+    "static/media/netfixclone.png": "/myportfolio/static/media/netfixclone.1fe51947741f738eaaf4.png",
+    "static/media/fastfood.png": "/myportfolio/static/media/fastfood.0176b17c674f0ef0fbd1.png",
+    "static/media/online-shop.png": "/myportfolio/static/media/online-shop.cf07e48ba032798380b9.png",
+    "static/media/network_anylatics.png": "/myportfolio/static/media/network_anylatics.fa80e2e9c974c7f2cc56.png",
+    "static/media/url_short.png": "/myportfolio/static/media/url_short.d7de053d9d21b3880627.png",
+    "static/media/puppyworld.png": "/myportfolio/static/media/puppyworld.55a7e1c30940cf38874b.png",
+    "static/media/Rezorpay.png": "/myportfolio/static/media/Rezorpay.54b704e14b599b2f46c9.png",
+    "static/media/fitness.png": "/myportfolio/static/media/fitness.93921be9cb40e652d2d4.png",
+    "static/media/chartjs.png": "/myportfolio/static/media/chartjs.4036d46302bc67df743f.png",
+    "static/media/Task manager.png": "/myportfolio/static/media/Task manager.1c67a23e4ec8c3c6700e.png",
+    "static/media/Search.png": "/myportfolio/static/media/Search.1dadbf2f4484dc44a4d1.png",
     "index.html": "/myportfolio/index.html",
-    "main.a758497f.css.map": "/myportfolio/static/css/main.a758497f.css.map",
-    "main.d9387788.js.map": "/myportfolio/static/js/main.d9387788.js.map",
+    "main.87afe2a6.css.map": "/myportfolio/static/css/main.87afe2a6.css.map",
+    "main.ff0507d0.js.map": "/myportfolio/static/js/main.ff0507d0.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a758497f.css",
-    "static/js/main.d9387788.js"
+    "static/css/main.87afe2a6.css",
+    "static/js/main.ff0507d0.js"
   ]
 }
