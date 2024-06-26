@@ -52,10 +52,10 @@ const Navbar = () => {
             )} */}
             {isOpen && (
               <ul>
-                <li><Link smooth to="/#hero-section" onClick={handleLinkClick}>Home</Link></li>
-                <li><Link smooth to="/#aboutme-section" onClick={handleLinkClick}>About</Link></li>
-                <li><Link smooth to="/#skills-section" onClick={handleLinkClick}>My skill</Link></li>
-                <li><Link smooth to="/#portfolio-section" onClick={handleLinkClick}>Work</Link></li>
+                <li><Link smooth to="/myportfolio/#hero-section" onClick={handleLinkClick}>Home</Link></li>
+                <li><Link smooth to="/myportfolio/#aboutme-section" onClick={handleLinkClick}>About</Link></li>
+                <li><Link smooth to="/myportfolio/#skills-section" onClick={handleLinkClick}>My skill</Link></li>
+                <li><Link smooth to="/myportfolio/#portfolio-section" onClick={handleLinkClick}>Work</Link></li>
               </ul>
             )}
           </div>
