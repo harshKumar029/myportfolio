@@ -9,6 +9,7 @@ import online_shop from '../../assetss/img/online-shop.png';
 import Rezorpay from '../../assetss/img/Rezorpay.png';
 import Search from '../../assetss/img/Search.png';
 import network_anylatics from '../../assetss/img/network_anylatics.png';
+import Ecoson from '../../assetss/img/Ecoson.webp';
 import url_short from '../../assetss/img/url_short.png';
 import Task_manager from '../../assetss/img/Task manager.png';
 import './project.css';
@@ -72,6 +73,15 @@ const projects = [
   },
   {
     id: 8,
+    image: Ecoson,
+    title: 'EcoSun',
+    description: 'Objective is to design and develop a responsive website with animation that sells a single product and here comes Eco Sun a solar panel selling website which is design using Figma and Developed using React tailwind and for animation I have used AOS library',
+    github: 'https://github.com/harshKumar029/Solarwebui',
+    demo: 'https://solarwebui.vercel.app/',
+    figma: 'https://www.figma.com/design/D1IUaP2SGpOVF5Lfw5fyny/Untitled?node-id=47-51&t=9krlVJuji3bwRzAN-0'
+  },
+  {
+    id: 9,
     image: fastfood,
     title: 'Fastfood',
     description: 'Fastfood is a cloud kitchen management system that streamlines the operations of fast-food restaurants. It includes features such as order management, order status history, enhancing the efficiency of food service operations.',
@@ -79,7 +89,7 @@ const projects = [
     demo: 'https://fastfood-nu.vercel.app/'
   },
   {
-    id: 9,
+    id: 10,
     image: puppyworld,
     title: 'Puppyworld',
     description: 'Puppyworld is an online freelance project where I designed the system and developed the UI/UX. It offers a variety of products and services for pets, including pet training and a community forum for sharing experiences and tips. This website is also top-ranked in Google search results.',
@@ -87,7 +97,7 @@ const projects = [
     demo: 'https://puppytheworld.in/'
   },
   {
-    id: 10,
+    id: 11,
     image: netflixCloneImage,
     title: 'Netflix',
     description: 'Netflix Clone is a web application inspired by the popular streaming service Netflix. It features a user-friendly interface for browsing movies and TV shows, complete with search functionality using the TMDB API.',
@@ -95,7 +105,7 @@ const projects = [
     demo: 'https://netflixuiclone-jecbzpb34-harsh-kumars-projects-93aba863.vercel.app/'
   },
   {
-    id: 11,
+    id: 12,
     image: url_short,
     title: 'Url shortner',
     description: 'URL Shortener is a web application that allows users to shorten long URLs for easier sharing. It includes features such as click tracking, and analytics, providing a efficient solution for managing links. The technology used includes AWS EC2 for hosting the Node.js server and a custom domain.',
@@ -125,8 +135,15 @@ const Project = () => {
               <a href={project.github} target="_blank" rel="noopener noreferrer">
                 <FaGithub className="icon-gh" />
               </a>
+              {project.figma && (
+                <a style={{placeSelf:'normal'}} href={project.figma} target="_blank" rel="noopener noreferrer">
+                  <svg   xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="17" height="17" viewBox="0 0 48 48">
+                    <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+                  </svg>
+                </a>
+              )}
               <a className='demo_link' href={project.demo} target="_blank" rel="noopener noreferrer">
-                <svg className='demo_link' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
                 </svg>
               </a>
