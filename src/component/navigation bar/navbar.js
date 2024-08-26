@@ -63,7 +63,7 @@ const Navbar = () => {
             <a href="https://www.linkedin.com/in/harsh-kumar-4b37311a2/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn className="icon-ln" />
             </a>
-            <a href="https://www.instagram.com/harsh.harshkumar.79/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/get_pixelcraft/reels/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="icon-in" />
             </a>
             <a href="https://github.com/harshKumar029" target="_blank" rel="noopener noreferrer">
