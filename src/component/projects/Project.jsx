@@ -4,7 +4,7 @@ import netflixCloneImage from '../../assetss/img/netfixclone.png';
 import fastfood from '../../assetss/img/fastfood.png';
 import chartjs from '../../assetss/img/chartjs.png';
 import fitness from '../../assetss/img/fitness.png';
-import puppyworld from '../../assetss/img/puppyworld.png';
+import puppyworld from '../../assetss/gif/Puppyworld.gif';
 import online_shop from '../../assetss/img/online-shop.png';
 import Rezorpay from '../../assetss/img/Rezorpay.png';
 import Search from '../../assetss/img/Search.png';
@@ -12,6 +12,7 @@ import network_anylatics from '../../assetss/img/network_anylatics.png';
 import Ecoson from '../../assetss/img/Ecoson.webp';
 import url_short from '../../assetss/img/url_short.png';
 import Task_manager from '../../assetss/img/Task manager.png';
+import Iphone_Titanium_mockup from '../../assetss/gif/Iphone_Titanium_mockup.gif';
 import './project.css';
 
 const projects = [
@@ -110,12 +111,62 @@ const projects = [
     title: 'Url shortner',
     description: 'URL Shortener is a web application that allows users to shorten long URLs for easier sharing. It includes features such as click tracking, and analytics, providing a efficient solution for managing links. The technology used includes AWS EC2 for hosting the Node.js server and a custom domain.',
     github: 'https://github.com/harshKumar029/url_shortener_app',
-    demo: 'https://linked-mu.vercel.app/'
+    demo: 'https://linked-mu.vercel.app/',
+  },
+  {
+    id: 13,
+    image: Iphone_Titanium_mockup,
+    title: 'Iphone_Titanium-mockup',
+    description: 'This iPhone Titanium website, crafted with Adobe Premiere Pro, 3D animation, React, and Figma, features a parallax scrolling effect. A 3D model, created with Spline, adds an interactive element, allowing users to explore the product from different angles. The clean and minimalistic design aligns with the brand aesthetics.',
+    github: 'https://github.com/harshKumar029/Apple_Mockup',
+    demo: '',
+    figma: 'https://www.figma.com/design/AisVkKrhC93HZQjMAhkWXZ/Untitled?node-id=0-1&t=JYbqNQDzKvZaenC7-0',
+    video: 'https://drive.google.com/file/d/1A7inOhuSvkO58HPwKk0ko_lC5oaF_k7A/preview'
   }
 ];
 
 const Project = () => {
   return (
+    // <div className="project-container">
+    //   <p className="project_h2">&lt;h2&gt;</p>
+    //   <h2 className='pro_heading'>Projects</h2>
+    //   <p className="project_h2">&lt;/h2&gt;</p>
+    //   <p className="project_h2">&lt;div&gt;</p>
+    //   <div className="projects-grid">
+    //     {projects.map(project => (
+    //       <div className="project-card" key={project.id}>
+    //         <div className="project-image">
+    //           <img src={project.image} alt={project.title} />
+    //         </div>
+    //         <div className="project-details">
+    //           <h2>{project.title}</h2>
+    //           <p>{project.description}</p>
+    //         </div>
+    //         <div className='card_icon'>
+    //           <a href={project.github} target="_blank" rel="noopener noreferrer">
+    //             <FaGithub className="icon-gh" />
+    //           </a>
+    //           {project.figma && (
+    //             <a style={{placeSelf:'normal'}} href={project.figma} target="_blank" rel="noopener noreferrer">
+    //               <svg   xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="17" height="17" viewBox="0 0 48 48">
+    //                 <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+    //               </svg>
+    //             </a>
+    //           )}
+    //           <a className='demo_link' href={project.demo} target="_blank" rel="noopener noreferrer">
+    //             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+    //               <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+    //             </svg>
+    //           </a>
+    //         </div>
+    //       </div>
+    //     )).reverse()}
+    //   </div>
+    //   <p className="project_h2">&lt;/div&gt;</p>
+    // </div>
+
+
+
     <div className="project-container">
       <p className="project_h2">&lt;h2&gt;</p>
       <h2 className='pro_heading'>Projects</h2>
@@ -125,7 +176,16 @@ const Project = () => {
         {projects.map(project => (
           <div className="project-card" key={project.id}>
             <div className="project-image">
-              <img src={project.image} alt={project.title} />
+              <img src={project.image} alt={project.title} className="project-thumbnail" />
+              <div className="video-overlay">
+                <iframe
+                  src={project.video}
+                  className="project-video"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
             <div className="project-details">
               <h2>{project.title}</h2>
@@ -136,8 +196,8 @@ const Project = () => {
                 <FaGithub className="icon-gh" />
               </a>
               {project.figma && (
-                <a style={{placeSelf:'normal'}} href={project.figma} target="_blank" rel="noopener noreferrer">
-                  <svg   xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="17" height="17" viewBox="0 0 48 48">
+                <a style={{ placeSelf: 'normal' }} href={project.figma} target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="17" height="17" viewBox="0 0 48 48">
                     <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
                   </svg>
                 </a>
@@ -153,6 +213,7 @@ const Project = () => {
       </div>
       <p className="project_h2">&lt;/div&gt;</p>
     </div>
+    
   );
 }
 

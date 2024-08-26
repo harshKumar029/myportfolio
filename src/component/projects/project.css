@@ -87,3 +87,65 @@ width: 15px;
   font-size: 14px;
   line-height: 1.6;
 }
+
+
+
+
+
+
+
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer; 
+}
+
+.project-image {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1);
+}
+
+.project-thumbnail {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: auto;
+}
+
+.project-card:hover .video-overlay {
+  opacity: 1;
+}
+
+.project-video {
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 850px) {
+  .project-container {
+    padding: 0px;
+    padding-top: 9rem;
+    margin: auto;
+  }
+}
