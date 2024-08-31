@@ -119,7 +119,7 @@ const projects = [
     title: 'Iphone_Titanium-mockup',
     description: 'This iPhone Titanium website, crafted with Adobe Premiere Pro, 3D animation, React, and Figma, features a parallax scrolling effect. A 3D model, created with Spline, adds an interactive element, allowing users to explore the product from different angles. The clean and minimalistic design aligns with the brand aesthetics.',
     github: 'https://github.com/harshKumar029/Apple_Mockup',
-    demo: 'https://apple-mockup.onrender.com/',
+    // demo: 'https://apple-mockup.onrender.com/',
     figma: 'https://www.figma.com/design/AisVkKrhC93HZQjMAhkWXZ/Untitled?node-id=0-1&t=JYbqNQDzKvZaenC7-0',
     video: 'https://drive.google.com/file/d/1A7inOhuSvkO58HPwKk0ko_lC5oaF_k7A/preview'
   }
