@@ -1,17 +1,17 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import netflixCloneImage from '../../assetss/img/netfixclone.png';
-import fastfood from '../../assetss/img/fastfood.png';
-import chartjs from '../../assetss/img/chartjs.png';
-import fitness from '../../assetss/img/fitness.png';
+import netflixCloneImage from '../../assetss/img/netfixclone.webp';
+import fastfood from '../../assetss/img/fastfood.webp';
+import chartjs from '../../assetss/img/chartjs.webp';
+import fitness from '../../assetss/img/fitness.webp';
 import puppyworld from '../../assetss/gif/Puppyworld.gif';
-import online_shop from '../../assetss/img/online-shop.png';
-import Rezorpay from '../../assetss/img/Rezorpay.png';
-import Search from '../../assetss/img/Search.png';
-import network_anylatics from '../../assetss/img/network_anylatics.png';
+import online_shop from '../../assetss/img/online-shop.webp';
+import Rezorpay from '../../assetss/img/Rezorpay.webp';
+import Search from '../../assetss/img/Search.webp';
+import network_anylatics from '../../assetss/img/network_anylatics.webp';
 import Ecoson from '../../assetss/img/Ecoson.webp';
-import url_short from '../../assetss/img/url_short.png';
-import Task_manager from '../../assetss/img/Task manager.png';
+import url_short from '../../assetss/img/url_short.webp';
+import Task_manager from '../../assetss/img/Task manager.webp';
 import Iphone_Titanium_mockup from '../../assetss/gif/Iphone_Titanium_mockup.gif';
 import './project.css';
 
