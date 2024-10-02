@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css';
 import { useNavigate } from 'react-router-dom';
-import url_short from '../../assetss/img/url_short.png';
+import url_short from '../../assetss/img/url_short.webp';
 
 
 const Portfolio = () => {
@@ -28,7 +28,7 @@ const Portfolio = () => {
                     <div className="slide-track">
                     <div className="slide">
                             <a href="https://anylatics.vercel.app/">
-                                <img src="./assets/img/chartjs.png" alt="" />
+                                <img src="./assets/img/chartjs.webp" alt="" />
                             </a>
                         </div>
                         <div className="slide">
@@ -38,22 +38,22 @@ const Portfolio = () => {
                         </div>
                         <div className="slide">
                             <a href="https://fastfood-nu.vercel.app/">
-                                <img src="./assets/img/fastfood.png" alt="" />
+                                <img src="./assets/img/fastfood.webp" alt="" />
                             </a>
                         </div>
                         <div className="slide">
                             <a href="https://netflixuiclone-jecbzpb34-harsh-kumars-projects-93aba863.vercel.app/">
-                                <img src="./assets/img/netfixclone.png" alt="" />
+                                <img src="./assets/img/netfixclone.webp" alt="" />
                             </a>
                         </div>
                         <div className="slide">
                             <a href="https://puppytheworld.in/">
-                                <img src="./assets/img/puppyworld.png" alt="" />
+                                <img src="./assets/img/puppyworld.webp" alt="" />
                             </a>
                         </div>
                         <div className="slide">
                             <a href="#">
-                                <img src="./assets/img/online-shop.png" alt="" />
+                                <img src="./assets/img/online-shop.webp" alt="" />
                             </a>
                         </div>
                     
