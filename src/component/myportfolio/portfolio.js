@@ -2,6 +2,12 @@ import React from 'react'
 import './portfolio.css';
 import { useNavigate } from 'react-router-dom';
 import url_short from '../../assetss/img/url_short.webp';
+import fastfood from '../../assets/img/fastfood.webp';
+import chartjs from '../../assets/img/chartjs.webp';
+import netfixclone from '../../assets/img/netfixclone.webp';
+import puppyworld from '../../assets/img/puppyworld.webp';
+import onlineShop from '../../assets/img/online-shop.webp';
+
 
 
 const Portfolio = () => {
@@ -28,7 +34,7 @@ const Portfolio = () => {
                     <div className="slide-track">
                     <div className="slide">
                             <a href="https://anylatics.vercel.app/">
-                                <img src="./assets/img/chartjs.webp" alt="" />
+                                <img src={chartjs} alt="chartjs" />
                             </a>
                         </div>
                         <div className="slide">
@@ -38,22 +44,22 @@ const Portfolio = () => {
                         </div>
                         <div className="slide">
                             <a href="https://fastfood-nu.vercel.app/">
-                                <img src="./assets/img/fastfood.webp" alt="" />
+                                <img src={fastfood} alt="fastfood" />
                             </a>
                         </div>
                         <div className="slide">
                             <a href="https://netflixuiclone-jecbzpb34-harsh-kumars-projects-93aba863.vercel.app/">
-                                <img src="./assets/img/netfixclone.webp" alt="" />
+                                <img src={netfixclone} alt="netfixclone" />
                             </a>
                         </div>
                         <div className="slide">
                             <a href="https://puppytheworld.in/">
-                                <img src="./assets/img/puppyworld.webp" alt="" />
+                                <img src={puppyworld} alt="puppyworld" />
                             </a>
                         </div>
                         <div className="slide">
                             <a href="#">
-                                <img src="./assets/img/online-shop.webp" alt="" />
+                                <img src={onlineShop} alt="" />
                             </a>
                         </div>
                     
