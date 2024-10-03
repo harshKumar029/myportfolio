@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.fb593848.css",
-    "main.js": "/myportfolio/static/js/main.376e66df.js",
+    "main.js": "/myportfolio/static/js/main.2f17aae0.js",
     "static/js/787.3503cf78.chunk.js": "/myportfolio/static/js/787.3503cf78.chunk.js",
     "static/media/Iphone_Titanium_mockup.gif": "/myportfolio/static/media/Iphone_Titanium_mockup.db8f0379c4ff3ac6c966.gif",
     "static/media/Puppyworld.gif": "/myportfolio/static/media/Puppyworld.e41a0bef529a04c890c1.gif",
     "static/media/netfixclone.webp": "/myportfolio/static/media/netfixclone.26d369e6e6e16e3adc7d.webp",
     "static/media/fitness.webp": "/myportfolio/static/media/fitness.dc4ea10e969d79f4a9d3.webp",
     "static/media/Apex.gif": "/myportfolio/static/media/Apex.1da8bf2baf38fbf23af6.gif",
+    "static/media/puppyworld.webp": "/myportfolio/static/media/puppyworld.9a7e2a31ff7eed27942b.webp",
     "static/media/fastfood.webp": "/myportfolio/static/media/fastfood.2a97b0c90deaad4f782e.webp",
     "static/media/online-shop.webp": "/myportfolio/static/media/online-shop.8df67b84bcff830a4779.webp",
     "static/media/Rezorpay.webp": "/myportfolio/static/media/Rezorpay.8c90b17803ae87fea3fb.webp",
@@ -19,11 +20,11 @@
     "static/media/Search.webp": "/myportfolio/static/media/Search.c46237bbfc1055021c8d.webp",
     "index.html": "/myportfolio/index.html",
     "main.fb593848.css.map": "/myportfolio/static/css/main.fb593848.css.map",
-    "main.376e66df.js.map": "/myportfolio/static/js/main.376e66df.js.map",
+    "main.2f17aae0.js.map": "/myportfolio/static/js/main.2f17aae0.js.map",
     "787.3503cf78.chunk.js.map": "/myportfolio/static/js/787.3503cf78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb593848.css",
-    "static/js/main.376e66df.js"
+    "static/js/main.2f17aae0.js"
   ]
 }
