@@ -5,6 +5,7 @@ import fastfood from '../../assetss/img/fastfood.webp';
 import chartjs from '../../assetss/img/chartjs.webp';
 import fitness from '../../assetss/img/fitness.webp';
 import puppyworld from '../../assetss/gif/Puppyworld.gif';
+import Apex from '../../assetss/gif/Apex.gif';
 import online_shop from '../../assetss/img/online-shop.webp';
 import Rezorpay from '../../assetss/img/Rezorpay.webp';
 import Search from '../../assetss/img/Search.webp';
@@ -107,6 +108,14 @@ const projects = [
   },
   {
     id: 12,
+    image: Apex,
+    title: 'Apex',
+    description: 'Apex is a finance platform, currently in development phase for a Noida-based company. As a freelancer, I manage frontend development, focusing on creating intuitive UI/UX and integrating APIs for efficient financial operations.',
+    // github: 'https://github.com/harshKumar029/netflixui',
+    demo: 'https://apex-chi.vercel.app/'
+  },
+  {
+    id: 13,
     image: url_short,
     title: 'Url shortner',
     description: 'URL Shortener is a web application that allows users to shorten long URLs for easier sharing. It includes features such as click tracking, and analytics, providing a efficient solution for managing links. The technology used includes AWS EC2 for hosting the Node.js server and a custom domain.',
@@ -114,7 +123,7 @@ const projects = [
     demo: 'https://linked-mu.vercel.app/',
   },
   {
-    id: 13,
+    id: 14,
     image: Iphone_Titanium_mockup,
     title: 'Iphone_Titanium-mockup',
     description: 'This iPhone Titanium website, crafted with Adobe Premiere Pro, 3D animation, React, and Figma, features a parallax scrolling effect. A 3D model, created with Spline, adds an interactive element, allowing users to explore the product from different angles. The clean and minimalistic design aligns with the brand aesthetics.',
