@@ -2,11 +2,11 @@ import React from 'react'
 import './portfolio.css';
 import { useNavigate } from 'react-router-dom';
 import url_short from '../../assetss/img/url_short.webp';
-import fastfood from '../../assets/img/fastfood.webp';
-import chartjs from '../../assets/img/chartjs.webp';
-import netfixclone from '../../assets/img/netfixclone.webp';
-import puppyworld from '../../assets/img/puppyworld.webp';
-import onlineShop from '../../assets/img/online-shop.webp';
+import fastfood from '../../assetss/img/fastfood.webp';
+import chartjs from '../../assetss/img/chartjs.webp';
+import netfixclone from '../../assetss/img/netfixclone.webp';
+import puppyworld from '../../assetss/img/puppyworld.webp';
+import onlineShop from '../../assetss/img/online-shop.webp';
 
 
 
