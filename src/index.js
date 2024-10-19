@@ -11,12 +11,14 @@ import Aboutme from './component/aboutme/aboutme';
 import Myskill from './component/myskills/myskill';
 import Project from './component/projects/Project';
 import Homepage from './Homepage';
+import ScrollToTop from './component/ScrollToTop'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Router>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/myportfolio" element={<Homepage />} />
         <Route path="/project" element={<Project />} />
