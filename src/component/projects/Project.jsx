@@ -6,6 +6,7 @@ import chartjs from '../../assetss/img/chartjs.webp';
 import fitness from '../../assetss/img/fitness.webp';
 import puppyworld from '../../assetss/gif/Puppyworld.gif';
 import Apex from '../../assetss/gif/Apex.gif';
+import Apex_admin from '../../assetss/gif/Apex_admin.gif';
 import online_shop from '../../assetss/img/online-shop.webp';
 import Rezorpay from '../../assetss/img/Rezorpay.webp';
 import Search from '../../assetss/img/Search.webp';
@@ -108,10 +109,20 @@ const projects = [
   },
   {
     id: 12,
+    image: Apex_admin,
+    title: 'Apex_Admin',
+    description: 'Apex is a finance platform currently being developed for a client in Noida. The UI/UX designs created by another Junior freelancer. My work involves bringing these designs to life as a functional, reliable web app integrating APIs to ensure smooth financial operations. This project is ongoing, with regular updates to improve functionality, security, and user experience, all tailored to meet the client’s needs.',
+    // github: 'https://github.com/harshKumar029/netflixui',
+    figma: 'https://www.figma.com/design/0SF1gg5Uyv3ioypJDQP6Wx/Apex-Backend?node-id=0-1&node-type=canvas&t=MnUjJ9kDdqXwSueT-0',
+    demo: 'https://apex-chi.vercel.app/'
+  },
+  {
+    id: 13,
     image: Apex,
-    title: 'Apex',
+    title: 'Apex_Dashboard',
     description: 'Apex is a finance platform, currently in development phase for a Noida-based company. As a freelancer, I manage frontend development, focusing on creating intuitive UI/UX and integrating APIs for efficient financial operations.',
     // github: 'https://github.com/harshKumar029/netflixui',
+    figma: 'https://www.figma.com/design/mX6QIvm9RolD44s7Cmvj0R/Apex-Agent?node-id=0-1&node-type=canvas&t=t0Ry9tgrqcgWCpAb-0',
     demo: 'https://apex-chi.vercel.app/'
   },
   {

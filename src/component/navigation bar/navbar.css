@@ -163,7 +163,7 @@ nav {
     left: -.9rem;
     flex-direction: column;
     width: 100vw;
-    background-color: #f0f0f0;
+    background-color: #1e1e1eec;
     text-align: center;
     z-index: 10;
   }
