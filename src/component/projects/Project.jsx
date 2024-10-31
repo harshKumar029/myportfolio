@@ -15,6 +15,7 @@ import Ecoson from '../../assetss/img/Ecoson.webp';
 import url_short from '../../assetss/img/url_short.webp';
 import Task_manager from '../../assetss/img/Task manager.webp';
 import Iphone_Titanium_mockup from '../../assetss/gif/Iphone_Titanium_mockup.gif';
+import Reduxpay from '../../assetss/gif/Reduxpay.gif';
 import './project.css';
 
 const projects = [
@@ -114,7 +115,7 @@ const projects = [
     description: 'Apex is a finance platform currently being developed for a client in Noida. The UI/UX designs created by another Junior freelancer. My work involves bringing these designs to life as a functional, reliable web app integrating APIs to ensure smooth financial operations. This project is ongoing, with regular updates to improve functionality, security, and user experience, all tailored to meet the client’s needs.',
     // github: 'https://github.com/harshKumar029/netflixui',
     figma: 'https://www.figma.com/design/0SF1gg5Uyv3ioypJDQP6Wx/Apex-Backend?node-id=0-1&node-type=canvas&t=MnUjJ9kDdqXwSueT-0',
-    demo: 'https://apex-chi.vercel.app/'
+    demo: 'https://apex-admin-five.vercel.app/'
   },
   {
     id: 13,
@@ -126,7 +127,17 @@ const projects = [
     demo: 'https://apex-chi.vercel.app/'
   },
   {
-    id: 13,
+    id: 14,
+    image: Reduxpay,
+    title: 'Reduxpay',
+    description: 'This iPhone Titanium website, crafted with Adobe Premiere Pro, 3D animation, React, and Figma, features a parallax scrolling effect. A 3D model, created with Spline, adds an interactive element, allowing users to explore the product from different angles. The clean and minimalistic design aligns with the brand aesthetics.',
+    github: 'https://github.com/harshKumar029/Payment_gateway',
+    demo: 'https://payment-gateway-yahz.onrender.com/',
+    figma: 'https://www.figma.com/design/eFucBuJkhi9bWoJqEURUFF/Untitled?node-id=0-1&node-type=canvas&t=lczS9IEnz8J8tpYc-0',
+    video: 'https://drive.google.com/file/d/1qpq_vbBim19x-uAzggv6CxpbIaOZBJ0z/preview'
+  },
+  {
+    id: 15,
     image: url_short,
     title: 'Url shortner',
     description: 'URL Shortener is a web application that allows users to shorten long URLs for easier sharing. It includes features such as click tracking, and analytics, providing a efficient solution for managing links. The technology used includes AWS EC2 for hosting the Node.js server and a custom domain.',
@@ -134,7 +145,7 @@ const projects = [
     demo: 'https://linked-mu.vercel.app/',
   },
   {
-    id: 14,
+    id: 16,
     image: Iphone_Titanium_mockup,
     title: 'Iphone_Titanium-mockup',
     description: 'This iPhone Titanium website, crafted with Adobe Premiere Pro, 3D animation, React, and Figma, features a parallax scrolling effect. A 3D model, created with Spline, adds an interactive element, allowing users to explore the product from different angles. The clean and minimalistic design aligns with the brand aesthetics.',
@@ -212,9 +223,11 @@ const Project = () => {
               <p>{project.description}</p>
             </div>
             <div className='card_icon'>
-              <a href={project.github} target="_blank" rel="noopener noreferrer">
-                <FaGithub className="icon-gh" />
-              </a>
+              {project.github && (
+                <a href={project.github} target="_blank" rel="noopener noreferrer">
+                  <FaGithub className="icon-gh" />
+                </a>
+              )}
               {project.figma && (
                 <a style={{ placeSelf: 'normal' }} href={project.figma} target="_blank" rel="noopener noreferrer">
                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="17" height="17" viewBox="0 0 48 48">
@@ -222,18 +235,20 @@ const Project = () => {
                   </svg>
                 </a>
               )}
+              {project.demo && (
               <a className='demo_link' href={project.demo} target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
                 </svg>
               </a>
+              )}
             </div>
           </div>
         )).reverse()}
       </div>
       <p className="project_h2">&lt;/div&gt;</p>
     </div>
-    
+
   );
 }
 
