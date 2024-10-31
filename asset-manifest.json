@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.2bbd2cc7.css",
-    "main.js": "/myportfolio/static/js/main.50305ce9.js",
+    "main.js": "/myportfolio/static/js/main.db730d02.js",
     "static/js/787.3503cf78.chunk.js": "/myportfolio/static/js/787.3503cf78.chunk.js",
     "static/media/Iphone_Titanium_mockup.gif": "/myportfolio/static/media/Iphone_Titanium_mockup.db8f0379c4ff3ac6c966.gif",
     "static/media/Puppyworld.gif": "/myportfolio/static/media/Puppyworld.e41a0bef529a04c890c1.gif",
@@ -19,14 +19,15 @@
     "static/media/Task manager.webp": "/myportfolio/static/media/Task manager.ffe70ecce9d8f2c68dde.webp",
     "static/media/url_short.webp": "/myportfolio/static/media/url_short.3fd85e445c31312e9b0a.webp",
     "static/media/network_anylatics.webp": "/myportfolio/static/media/network_anylatics.2c758603999b820e36ba.webp",
+    "static/media/influencer.webp": "/myportfolio/static/media/influencer.1a3b20a9b1e144fb9300.webp",
     "static/media/Search.webp": "/myportfolio/static/media/Search.c46237bbfc1055021c8d.webp",
     "index.html": "/myportfolio/index.html",
     "main.2bbd2cc7.css.map": "/myportfolio/static/css/main.2bbd2cc7.css.map",
-    "main.50305ce9.js.map": "/myportfolio/static/js/main.50305ce9.js.map",
+    "main.db730d02.js.map": "/myportfolio/static/js/main.db730d02.js.map",
     "787.3503cf78.chunk.js.map": "/myportfolio/static/js/787.3503cf78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bbd2cc7.css",
-    "static/js/main.50305ce9.js"
+    "static/js/main.db730d02.js"
   ]
 }
