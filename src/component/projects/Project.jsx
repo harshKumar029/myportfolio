@@ -130,7 +130,7 @@ const projects = [
     id: 14,
     image: Reduxpay,
     title: 'Reduxpay',
-    description: 'This iPhone Titanium website, crafted with Adobe Premiere Pro, 3D animation, React, and Figma, features a parallax scrolling effect. A 3D model, created with Spline, adds an interactive element, allowing users to explore the product from different angles. The clean and minimalistic design aligns with the brand aesthetics.',
+    description: 'In my previous role at StoreShoppy, I had development a payment web app similar to PayPal, Razorpay, and Stripe. This solution targeted B2B businesses and supported multiple payment methods, including bulk and Excel-based payments. Transaction analytics using Chart.js Login/signup flows with OTP-based transactions and payout managementform validation and error handling for seamless user experience',
     github: 'https://github.com/harshKumar029/Payment_gateway',
     demo: 'https://payment-gateway-yahz.onrender.com/',
     figma: 'https://www.figma.com/design/eFucBuJkhi9bWoJqEURUFF/Untitled?node-id=0-1&node-type=canvas&t=lczS9IEnz8J8tpYc-0',
