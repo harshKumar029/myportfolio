@@ -14,6 +14,7 @@ import network_anylatics from '../../assetss/img/network_anylatics.webp';
 import Ecoson from '../../assetss/img/Ecoson.webp';
 import url_short from '../../assetss/img/url_short.webp';
 import Task_manager from '../../assetss/img/Task manager.webp';
+import BookMyCollab from '../../assetss/img/influencer.webp';
 import Iphone_Titanium_mockup from '../../assetss/gif/Iphone_Titanium_mockup.gif';
 import Reduxpay from '../../assetss/gif/Reduxpay.gif';
 import './project.css';
@@ -94,6 +95,14 @@ const projects = [
   },
   {
     id: 10,
+    image: BookMyCollab,
+    title: 'BookMyCollab',
+    description: 'BookMyCollab is an online platform that simplifies influencer marketing by acting as a mediator, connecting brands with popular influencers on platforms like YouTube, Instagram, and Facebook to create unique, tailored content for each brand.',
+    demo: 'https://influencer-book-my-collab.vercel.app/'
+  },
+
+  {
+    id: 11,
     image: puppyworld,
     title: 'Puppyworld',
     description: 'Puppyworld is an online freelance project where I designed the system and developed the UI/UX. It offers a variety of products and services for pets, including pet training and a community forum for sharing experiences and tips. This website is also top-ranked in Google search results.',
@@ -101,7 +110,7 @@ const projects = [
     demo: 'https://puppytheworld.in/'
   },
   {
-    id: 11,
+    id: 12,
     image: netflixCloneImage,
     title: 'Netflix',
     description: 'Netflix Clone is a web application inspired by the popular streaming service Netflix. It features a user-friendly interface for browsing movies and TV shows, complete with search functionality using the TMDB API.',
@@ -109,7 +118,7 @@ const projects = [
     demo: 'https://netflixuiclone-jecbzpb34-harsh-kumars-projects-93aba863.vercel.app/'
   },
   {
-    id: 12,
+    id: 13,
     image: Apex_admin,
     title: 'Apex_Admin',
     description: 'Apex is a finance platform currently being developed for a client in Noida. The UI/UX designs created by another Junior freelancer. My work involves bringing these designs to life as a functional, reliable web app integrating APIs to ensure smooth financial operations. This project is ongoing, with regular updates to improve functionality, security, and user experience, all tailored to meet the client’s needs.',
@@ -118,7 +127,7 @@ const projects = [
     demo: 'https://apex-admin-five.vercel.app/'
   },
   {
-    id: 13,
+    id: 14,
     image: Apex,
     title: 'Apex_Dashboard',
     description: 'Apex is a finance platform, currently in development phase for a Noida-based company. As a freelancer, I manage frontend development, focusing on creating intuitive UI/UX and integrating APIs for efficient financial operations.',
@@ -127,7 +136,7 @@ const projects = [
     demo: 'https://apex-chi.vercel.app/'
   },
   {
-    id: 14,
+    id: 15,
     image: Reduxpay,
     title: 'Reduxpay',
     description: 'In my previous role at StoreShoppy, I had development a payment web app similar to PayPal, Razorpay, and Stripe. This solution targeted B2B businesses and supported multiple payment methods, including bulk and Excel-based payments. Transaction analytics using Chart.js Login/signup flows with OTP-based transactions and payout managementform validation and error handling for seamless user experience',
@@ -137,7 +146,7 @@ const projects = [
     video: 'https://drive.google.com/file/d/1qpq_vbBim19x-uAzggv6CxpbIaOZBJ0z/preview'
   },
   {
-    id: 15,
+    id: 16,
     image: url_short,
     title: 'Url shortner',
     description: 'URL Shortener is a web application that allows users to shorten long URLs for easier sharing. It includes features such as click tracking, and analytics, providing a efficient solution for managing links. The technology used includes AWS EC2 for hosting the Node.js server and a custom domain.',
@@ -145,7 +154,7 @@ const projects = [
     demo: 'https://linked-mu.vercel.app/',
   },
   {
-    id: 16,
+    id: 17,
     image: Iphone_Titanium_mockup,
     title: 'Iphone_Titanium-mockup',
     description: 'This iPhone Titanium website, crafted with Adobe Premiere Pro, 3D animation, React, and Figma, features a parallax scrolling effect. A 3D model, created with Spline, adds an interactive element, allowing users to explore the product from different angles. The clean and minimalistic design aligns with the brand aesthetics.',
