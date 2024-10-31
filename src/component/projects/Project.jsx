@@ -139,7 +139,7 @@ const projects = [
     id: 15,
     image: Reduxpay,
     title: 'Reduxpay',
-    description: 'In my previous role at StoreShoppy, I had development a payment web app similar to PayPal, Razorpay, and Stripe. This solution targeted B2B businesses and supported multiple payment methods, including bulk and Excel-based payments. Transaction analytics using Chart.js Login/signup flows with OTP-based transactions and payout managementform validation and error handling for seamless user experience',
+    description: 'In my previous role at StoreShoppy, I developed a payment web app similar to PayPal, Razorpay, and Stripe. This solution targeted B2B businesses and supported multiple payment methods, including bulk and Excel-based payments. It featured transaction analytics using Chart.js, login/signup flows with OTP-based transactions, payout management, form validation, and error handling for a seamless user experience.',
     github: 'https://github.com/harshKumar029/Payment_gateway',
     demo: 'https://payment-gateway-yahz.onrender.com/',
     figma: 'https://www.figma.com/design/eFucBuJkhi9bWoJqEURUFF/Untitled?node-id=0-1&node-type=canvas&t=lczS9IEnz8J8tpYc-0',
