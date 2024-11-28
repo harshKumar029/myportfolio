@@ -33,8 +33,8 @@ const Portfolio = () => {
                 <div className="slider">
                     <div className="slide-track">
                     <div className="slide">
-                            <a href="https://anylatics.vercel.app/">
-                                <img src={chartjs} alt="chartjs" />
+                            <a href="https://puppytheworld.in/">
+                                <img src={puppyworld} alt="puppyworld" />
                             </a>
                         </div>
                         <div className="slide">
@@ -43,18 +43,13 @@ const Portfolio = () => {
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://fastfood-nu.vercel.app/">
-                                <img src={fastfood} alt="fastfood" />
-                            </a>
-                        </div>
-                        <div className="slide">
                             <a href="https://netflixuiclone-jecbzpb34-harsh-kumars-projects-93aba863.vercel.app/">
                                 <img src={netfixclone} alt="netfixclone" />
                             </a>
                         </div>
                         <div className="slide">
-                            <a href="https://puppytheworld.in/">
-                                <img src={puppyworld} alt="puppyworld" />
+                            <a href="https://fastfood-nu.vercel.app/">
+                                <img src={fastfood} alt="fastfood" />
                             </a>
                         </div>
                         <div className="slide">
@@ -62,7 +57,12 @@ const Portfolio = () => {
                                 <img src={onlineShop} alt="" />
                             </a>
                         </div>
-                    
+                        <div className="slide">
+                            <a href="https://anylatics.vercel.app/">
+                                <img src={chartjs} alt="chartjs" />
+                            </a>
+                        </div>
+
                     </div>
                 </div>
                 <div className='view_Project'>
