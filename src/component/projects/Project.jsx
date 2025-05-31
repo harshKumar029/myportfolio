@@ -152,7 +152,7 @@ const projects = [
     github: 'https://github.com/harshKumar029/Payment_gateway',
     demo: 'https://payment-gateway-yahz.onrender.com/',
     figma: 'https://www.figma.com/design/eFucBuJkhi9bWoJqEURUFF/Untitled?node-id=0-1&node-type=canvas&t=lczS9IEnz8J8tpYc-0',
-    video: 'https://drive.google.com/file/d/1qpq_vbBim19x-uAzggv6CxpbIaOZBJ0z/preview'
+    video: 'https://drive.google.com/file/d/1VZhVuybonW2_wBcM5GNGv3E1jWDhBRrR/preview'
   },
   {
     id: 17,
