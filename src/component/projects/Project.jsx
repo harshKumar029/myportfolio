@@ -13,6 +13,7 @@ import Search from '../../assetss/img/Search.webp';
 import network_anylatics from '../../assetss/img/network_anylatics.webp';
 import Ecoson from '../../assetss/img/Ecoson.webp';
 import url_short from '../../assetss/img/url_short.webp';
+import Linked from '../../assetss/gif/Linked.gif';
 import Task_manager from '../../assetss/img/Task manager.webp';
 import BookMyCollab from '../../assetss/img/influencer.webp';
 import Iphone_Titanium_mockup from '../../assetss/gif/Iphone_Titanium_mockup.gif';
@@ -111,6 +112,14 @@ const projects = [
   },
   {
     id: 12,
+    image: url_short,
+    title: 'Url shortner(Old)',
+    description: 'URL Shortener is a web application that allows users to shorten long URLs for easier sharing. It includes features such as click tracking, and analytics, providing a efficient solution for managing links. The technology used includes AWS EC2 for hosting the Node.js server and a custom domain.',
+    github: 'https://github.com/harshKumar029/url_shortener_app',
+    demo: 'https://linked-mu.vercel.app/',
+  },
+  {
+    id: 13,
     image: netflixCloneImage,
     title: 'Netflix',
     description: 'Netflix Clone is a web application inspired by the popular streaming service Netflix. It features a user-friendly interface for browsing movies and TV shows, complete with search functionality using the TMDB API.',
@@ -118,7 +127,7 @@ const projects = [
     demo: 'https://netflixuiclone-jecbzpb34-harsh-kumars-projects-93aba863.vercel.app/'
   },
   {
-    id: 13,
+    id: 14,
     image: Apex_admin,
     title: 'Apex_Admin',
     description: 'Apex is a finance platform currently being developed for a client in Noida. The UI/UX designs created by another Junior freelancer. My work involves bringing these designs to life as a functional, reliable web app integrating APIs to ensure smooth financial operations. This project is ongoing, with regular updates to improve functionality, security, and user experience, all tailored to meet the client’s needs.',
@@ -127,7 +136,7 @@ const projects = [
     demo: 'https://apex-admin-five.vercel.app/'
   },
   {
-    id: 14,
+    id: 15,
     image: Apex,
     title: 'Apex_Dashboard',
     description: 'Apex is a finance platform, currently in development phase for a Noida-based company. As a freelancer, I manage frontend development, focusing on creating intuitive UI/UX and integrating APIs for efficient financial operations.',
@@ -136,7 +145,7 @@ const projects = [
     demo: 'https://apex-chi.vercel.app/'
   },
   {
-    id: 15,
+    id: 16,
     image: Reduxpay,
     title: 'Reduxpay',
     description: 'In my previous role at StoreShoppy, I developed a payment web app similar to PayPal, Razorpay, and Stripe. This solution targeted B2B businesses and supported multiple payment methods, including bulk and Excel-based payments. It featured transaction analytics using Chart.js, login/signup flows with OTP-based transactions, payout management, form validation, and error handling for a seamless user experience.',
@@ -146,15 +155,15 @@ const projects = [
     video: 'https://drive.google.com/file/d/1qpq_vbBim19x-uAzggv6CxpbIaOZBJ0z/preview'
   },
   {
-    id: 16,
-    image: url_short,
-    title: 'Url shortner',
-    description: 'URL Shortener is a web application that allows users to shorten long URLs for easier sharing. It includes features such as click tracking, and analytics, providing a efficient solution for managing links. The technology used includes AWS EC2 for hosting the Node.js server and a custom domain.',
-    github: 'https://github.com/harshKumar029/url_shortener_app',
-    demo: 'https://linked-mu.vercel.app/',
+    id: 17,
+    image: Linked,
+    title: 'Linked(New)',
+    description: 'An upgraded version of my previous URL shortener project, rebuilt with enhanced features and a refined UI. It shortens long URLs with device- and country-based redirection for targeted sharing. Users can track click performance over the last 30 days through an interactive dashboard featuring world maps, line charts, and summary stats. Includes real-time analytics, click tracking, and link notifications, offering a powerful and efficient solution for managing links.',
+    github: 'https://github.com/harshKumar029/Linked',
+    demo: 'https://linked-po8h.vercel.app/login',
   },
   {
-    id: 17,
+    id: 18,
     image: Iphone_Titanium_mockup,
     title: 'Iphone_Titanium-mockup',
     description: 'This iPhone Titanium website, crafted with Adobe Premiere Pro, 3D animation, React, and Figma, features a parallax scrolling effect. A 3D model, created with Spline, adds an interactive element, allowing users to explore the product from different angles. The clean and minimalistic design aligns with the brand aesthetics.',
