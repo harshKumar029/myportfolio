@@ -64,6 +64,7 @@ const Portfolio = () => {
                         </div>
 
                     </div>
+                    
                 </div>
                 <div className='view_Project'>
                     <p
